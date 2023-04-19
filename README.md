@@ -24,3 +24,32 @@
 - Extra(hard)
   - ナップザック問題
   - 最短経路問題
+
+
+### 問題を作成するときのルール
+- 全ての問題のみをまとめたmdファイルを作る。
+- なるべく複数の解法を作成する
+- いくつか問題の入力を準備しておく
+- 基本的には`python`を利用する。
+- 問題はフォルダごとに分割して管理する
+- 問題フォルダの中には問題文、回答例、入力を入れる
+
+例)
+- allProblem.md
+- allProblem.pdf
+- pro1
+  - problem.md
+  - answer1.py
+  - answer2.py
+  - input
+    - 1.txt
+    - 2.txt
+    - 3.txt
+- pro2
+  - problem.md
+  - answer1.py
+  - answer2.py
+  - input
+    - 1.txt
+    - 2.txt
+    - 3.txt
