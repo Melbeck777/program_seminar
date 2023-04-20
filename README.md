@@ -53,3 +53,12 @@
     - 1.txt
     - 2.txt
     - 3.txt
+
+
+### commitルール
+- add : using add contents
+  - ex) contents are problem or answer code
+- fix : fix the code or problem
+- document : change or add document
+- file : move or rename file or folder
+- test : about test
