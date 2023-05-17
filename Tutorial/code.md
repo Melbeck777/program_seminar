@@ -144,6 +144,14 @@ a = int(input())
 b = int(input())
 print(a+b)
 ```
+
+## 累算代入演算
+```python
+apple_num = 3
+buy_apple_num = 23
+apple_num += buy_apple_num
+print(apple_num) # 26
+```
 <br>
 
 # Rule of variable name
