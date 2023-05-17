@@ -118,7 +118,7 @@ print("-11 // 4 = {}".format(-11//4)) # -11 // 4 = -3
 ### 剰余 %
 ```python
 print("7 % 3 = {}".format(7%3))   # 7 % 3 = 1
-print("10 % 6 = {}".format(10%6)) # 10 % 6 = 4
+print("11 % 6 = {}".format(10%6)) # 10 % 6 = 4
 ```
 
 ### べき乗 **
@@ -144,4 +144,64 @@ a = int(input())
 b = int(input())
 print(a+b)
 ```
+<br>
 
+# Rule of variable name
+## 変数名の付け方
+たとえば, csvファイルから人の名前を取得するとき
+```python
+# 人の名前
+a = open('AvrgTmp_Kyoto2018.csv', 'r')
+```
+というようにaとかとしてしまうと後でなんの変数だったかわすれてしまう
+```python
+# 人の名前
+name = open('AvrgTmp_Kyoto2018.csv', 'r')
+```
+こうすると多少読みやすくなるが, nameでは意味の幅が広すぎる. 食べ物の名前かも
+```python
+# 人の名前
+user_name = open('AvrgTmp_Kyoto2018.csv', 'r')
+```
+こうすると, あ, なんかのサービスの会員の名前なんだなってわかる<br>
+リストは複数形で
+```python
+# 会員の名前
+user_names = ["太郎", "次郎", "三郎"]
+```
+以上を踏まえて...
+```python
+# bad(全然わからん!)
+a, b, ...
+
+# better(わかるけど, なにこれ???)
+name, adress, ...
+
+# best(万人共通の理解)
+lastName, UserName, mail_adress, ...
+```
+### ex
+このプログラムは何を求めている?
+```python
+a = 22
+b = 49
+c = b - a
+# 答えは平林と親との年齢差
+```
+
+```python
+a = 98
+b = 400
+c = 0.08
+d = 98 * 400 * (1 + c)
+# 答えは豚肉400gを買ったときの値段(税込み)
+```
+
+## 命名規則
+同一プログラム内で統一するようにしよう
+- スネークケース: ``snake_case``, ``get_input_reader`` 
+- キャメルケース: ``camelCase``, ``getInputReader``
+```python
+# 定数
+CONSTANT = 100
+```
