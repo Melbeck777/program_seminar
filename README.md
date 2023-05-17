@@ -62,3 +62,7 @@
 - document : change or add document
 - file : move or rename file or folder
 - test : about test
+
+
+### スライド
+コードを書くときに使用したテーマは`VS Code`の`Light(Visual Studio - C/C++)`
