@@ -83,3 +83,11 @@ while i < 10:
 ## while-問題
 <!-- 最初のテストで出した問題を再利用すると良さそう? -->
 
+```python
+a, b = map(int, input().split())
+total = 0
+while a <= b:
+    total += a
+    a += 1
+print(total)
+```
