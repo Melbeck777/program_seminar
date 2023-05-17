@@ -182,6 +182,9 @@ lastName, UserName, mail_adress, ...
 ```
 ### ex
 このプログラムは何を求めている?
+adfafafa
+adress
+address
 ```python
 a = 22
 b = 49
