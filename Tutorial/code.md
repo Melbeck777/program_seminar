@@ -151,17 +151,17 @@ print(a+b)
 たとえば, csvファイルから人の名前を取得するとき
 ```python
 # 人の名前
-a = open('AvrgTmp_Kyoto2018.csv', 'r')
+a = "Alice"
 ```
 というようにaとかとしてしまうと後でなんの変数だったかわすれてしまう
 ```python
 # 人の名前
-name = open('AvrgTmp_Kyoto2018.csv', 'r')
+name = "Alice"
 ```
 こうすると多少読みやすくなるが, nameでは意味の幅が広すぎる. 食べ物の名前かも
 ```python
 # 人の名前
-user_name = open('AvrgTmp_Kyoto2018.csv', 'r')
+user_name = "Alice"
 ```
 こうすると, あ, なんかのサービスの会員の名前なんだなってわかる<br>
 リストは複数形で
