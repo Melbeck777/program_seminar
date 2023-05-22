@@ -59,7 +59,35 @@ print("{} is {} years old".format("Tom", 25))  # Tom is 25 years old
 print("Pi is {:.2f}".format(3.141592))         # Pi is 3.14
 print("{:3d} {:3d} {:3d}".format(1, 10, 100))  # 1 10 100
 print("{:03d} {:03d} {:03d}".format(1, 10, 100)) # 001 010 100
+```
 
+### 累算代入演算子
+```python
+a = 0
+print(a)  # 0
+
+a += 1
+print(a)  # 1
+
+a -= 3
+print(a)  # -2
+
+a *= 2
+print(a)  # -4
+```
+
+### 比較演算
+```python
+a = 4
+b = 6
+c = 4
+
+print(a > b)    # False
+print(a < b)    # True
+
+print(a == b)   # False
+print(b == c)   # False
+print(c == a)   # True
 ```
 
 <br>
